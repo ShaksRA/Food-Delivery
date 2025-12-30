@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react'
-import Nav from './NaV.JSX'
+import Nav from './Nav'
 import { categories } from '../category'
 import CategoryCard from './CategoryCard'
 import { FaCircleChevronLeft } from "react-icons/fa6";
@@ -155,3 +155,4 @@ setRightButton(element.scrollLeft+element.clientWidth<element.scrollWidth)
 }
 
 export default UserDashboard
+
